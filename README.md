@@ -1,8 +1,14 @@
+## Kafka using broker architecture
+![alt text](image-1.png)
+*Img credits to Tutorials Point*
+
 ## Setting up Kafka in your local environment
 
 To set up Kafka, follow these steps:
 
 1. Download Kafka: Visit the official Apache Kafka website (https://kafka.apache.org/downloads) and download the latest stable version of Kafka.
+
+*It is recommended to download from `Binary downloads` instead from `Source download` because there seems to have error.*
 
 2. Extract the downloaded file: Once the download is complete, extract the contents of the downloaded file to a directory of your choice.
 
@@ -30,7 +36,7 @@ To set up Kafka, follow these steps:
     bin/kafka-server-start.sh config/server.properties
     ```
 
-7. After running the API below, you can check Consumer message using command line:
+7. After running the API below, you can check Consumer message by opening a new tab in your terminal and run the following command:
 
     Windows:
     ```
