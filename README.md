@@ -7,6 +7,7 @@ To set up Kafka, follow these steps:
 2. Extract the downloaded file: Once the download is complete, extract the contents of the downloaded file to a directory of your choice.
 
 3. Start ZooKeeper: Kafka relies on ZooKeeper for coordination. Open a terminal or command prompt and navigate to the Kafka directory. Start ZooKeeper by running the following command:
+    
     Windows:
     ```
     bin\windows\zookeeper-server-start.bat config\zookeeper.properties
@@ -18,6 +19,7 @@ To set up Kafka, follow these steps:
     ```
 
 4. Start Kafka server: In a new terminal or command prompt, navigate to the Kafka directory and start the Kafka server by running the following command:
+    
     Windows:
     ```
     bin\windows\kafka-server-start.bat config\server.properties
